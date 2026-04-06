@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";        // or "127.0.0.1"
 $user = "root";              // your MySQL username
-$password = "Koyna";  // YOUR MySQL password (important!)
+$password = "";  // YOUR MySQL password (important!)
 $database = "studentdb";
 
 // Create connection
@@ -12,5 +12,5 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-echo "Connected successfully"; // Remove this after testing
+//echo "Connected successfully"; // Remove this after testing
 ?>
