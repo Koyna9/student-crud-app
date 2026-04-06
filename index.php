@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
 </head>
 <body>
     <div class="container">
-        <h2>📚 Student Entry Form</h2>
+        <h2>📚 Student Details Entry Form </h2>
         <form method="POST">
             <label>Name:</label>
             <input type="text" name="name" required>
